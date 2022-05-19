@@ -26,3 +26,6 @@ nombres.forEach(element => {
     document.write("<li>"+element+"</li>");
     
 });
+//busqueda que devuelva la posicion
+
+var busqueda = lenguajes.findIndex(lenguajes=>lenguaje=="js");
